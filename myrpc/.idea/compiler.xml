@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
+        <module name="pojo" />
         <module name="provider" />
         <module name="service" />
-        <module name="pojo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

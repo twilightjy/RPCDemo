@@ -2,6 +2,9 @@ package pojo;
 
 import java.io.Serializable;
 
+/*
+实体类的定义，需要实现序列化接口！
+ */
 public class Person implements Serializable {
 
     private Integer id;

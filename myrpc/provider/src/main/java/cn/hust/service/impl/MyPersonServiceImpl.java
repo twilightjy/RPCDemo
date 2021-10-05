@@ -7,7 +7,9 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+业务接口的具体实现，放在provider，意为rpc的实际提供者
+ */
 public class MyPersonServiceImpl extends UnicastRemoteObject implements MyPersonService {
 
     public MyPersonServiceImpl() throws RemoteException{

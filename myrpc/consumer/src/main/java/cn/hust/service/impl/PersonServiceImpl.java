@@ -12,7 +12,9 @@ import java.io.IOException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.util.List;
-
+/*
+通过zk获取provider的路径，利用rmi进行远程调用，实现rpc
+ */
 public class PersonServiceImpl implements PersonService {
     @Override
     public List<Person> show() {
